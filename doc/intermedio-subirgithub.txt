@@ -1,0 +1,16 @@
+Para subir un proyecto a github es necesario:
+ + Crear una cuenta en https://github.com/
+ + Crear el repositorio local  (ver inicio-creandorepo.txt)
+ + Crear llaves ssh ver https://help.github.com/articles/generating-a-new-ssh-key/
+
+Luego de ello ejecutar los siguiente:
+
+curl -u 'USUARIO' https://api.github.com/USUARIO/repos -d '{"name":"NOMBREDELPROYECTO","description":"DESCRIPCION DEL PROYECTO"}'
+git remote add origin git@github.com:USUARI/NOMBREDELPROYECTO.git
+git push origin master
+
+Para ello deben de cambiar las palabras en mayusculas con sus respectivos datos pertinentes.
+
+
+
+
