@@ -1,0 +1,18 @@
+https://git-scm.com/book/es-ni/v1/Iniciando
+
+Agregando Indeitifación a Git
+=============================
+
+git config --global user.name "Manuel Flores"
+git config --global user.email manuel.flores.villatoro@ues.edu.sv
+
+Agregando Editor por defecto
+============================
+git config --global core.editor nano
+
+
+Verificando Configuracion
+==========================
+git config --list
+
+

@@ -1,0 +1,13 @@
+Iniciando un Proyecto
+=========================
+git init
+
+
+Agregando Archivos al proyecto
+=============================
+git add *.txt
+
+
+Guardando los cambios
+=====================
+git commit -m 'Proyecto iniciar de versiones'
