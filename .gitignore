@@ -1,0 +1,11 @@
+# un comentario - es ignorado
+# ningún archivo .a
+*.a
+# pero si queremos versionar el archivo lib.a, incluse aunque estemos ignorando los archivos .a más arriba
+!lib.a
+# solo ignorar el archivo TODO del directorio raíz, no de los subdirectorios
+/TODO
+# ignorar todos los archivos dentro del directorio build/
+build/
+# ignorar el archivo doc/notes.txt, pero no doc/server/arch.txt
+#doc/*.txt
