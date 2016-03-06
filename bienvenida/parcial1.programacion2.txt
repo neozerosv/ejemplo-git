@@ -1,0 +1,6 @@
+<?php
+$numeros = array (5,7 ,9 );
+$promedio = ($numeros[0] + $numeros[1] + $numeros[2])/3;
+echo 'El promedio es ' . $promedio . '<br />';
+?>
+
